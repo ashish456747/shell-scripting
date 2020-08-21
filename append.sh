@@ -1,5 +1,12 @@
 #! /bin/bash
 
+: '
+>> append
+> overwrite
+./append.sh | tee -a out.log 
+./append01.sh 2>>err.log 1>>out.log
+'
+
 echo -e "Enter the name of the file: \c"
 read filename
 

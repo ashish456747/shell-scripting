@@ -1,4 +1,6 @@
 #! /bin/bash
+# -a array	assign the words read to sequential indices of the array variable ARRAY, starting at zero
+
 
 echo "Enter any names of your choice:"
 read -a names

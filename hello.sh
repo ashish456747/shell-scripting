@@ -1,3 +1,9 @@
 #! /bin/bash
 # This is a comment
-echo "Hello World!"
+: '
+This is a
+very neat comment
+in bash.
+'
+echo -n "Hello World!" # This is also a comment
+echo " It's beautiful outside."

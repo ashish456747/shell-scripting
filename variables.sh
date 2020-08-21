@@ -6,5 +6,6 @@ echo $PWD
 echo $HOME 
 
 #USER DEFINED VARIABLES 
-name=MARK 
-echo The name is $name
+name=MARK
+age=10
+echo The name is $name and age is $age
