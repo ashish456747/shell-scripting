@@ -25,7 +25,8 @@ vehicle=$1
 
 case $vehicle in 
   "car")
-    echo "The rent $vehicle is \$100." ;;
+    echo "The rent $vehicle is \$100." 
+    ;;
   "van")
     echo "The rent $vehicle is \$80."  ;;
   "bicycle")
